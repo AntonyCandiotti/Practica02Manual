@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpractica_02_manual=self.webpackChunkpractica_02_manual||[]).push([[8810],{3387:a=>{a.exports=JSON.parse('{"label":"docusaurus","permalink":"/Practica02Manual/blog/tags/docusaurus","allTagsPath":"/Practica02Manual/blog/tags","count":4,"unlisted":false}')}}]);
