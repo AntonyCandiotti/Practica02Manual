@@ -1,0 +1,703 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "1128": [
+      1869,
+      2125,
+      3249,
+      4813,
+      7643,
+      1128
+    ],
+    "2125": [
+      1128,
+      1869,
+      3249,
+      4813,
+      6061,
+      7643,
+      8401,
+      2125
+    ],
+    "2237": [
+      2237
+    ],
+    "17896441": [
+      1869,
+      2125,
+      8401
+    ],
+    "59362658": [
+      9325
+    ],
+    "main": [
+      1869,
+      5354,
+      8792
+    ],
+    "runtime~main": [
+      1869,
+      8792,
+      5354
+    ],
+    "01a85c17": [
+      1869,
+      8209
+    ],
+    "0e384e19": [
+      3976
+    ],
+    "14eb3368": [
+      1869,
+      6969
+    ],
+    "18c41134": [
+      9262
+    ],
+    "1becf2f9": [
+      7821
+    ],
+    "1e4232ab": [
+      1953
+    ],
+    "1f391b9e": [
+      1869,
+      2125,
+      6061
+    ],
+    "28b52985": [
+      5352
+    ],
+    "393be207": [
+      4134
+    ],
+    "3a13156d": [
+      7159
+    ],
+    "4df8bf20": [
+      5407
+    ],
+    "533a09ca": [
+      3098
+    ],
+    "56d0e263": [
+      6166
+    ],
+    "5c868d36": [
+      1974
+    ],
+    "5e95c892": [
+      9647
+    ],
+    "61fc4ad7": [
+      8879
+    ],
+    "6875c492": [
+      1128,
+      1869,
+      2125,
+      4813
+    ],
+    "6f7be878": [
+      1562
+    ],
+    "73664a40": [
+      1972
+    ],
+    "7661071f": [
+      8737
+    ],
+    "7f5b2176": [
+      2601
+    ],
+    "814f3328": [
+      7472
+    ],
+    "816026d7": [
+      7431
+    ],
+    "822bd8ab": [
+      2748
+    ],
+    "8717b14a": [
+      3694
+    ],
+    "925b3f96": [
+      8609
+    ],
+    "92faf2d7": [
+      418
+    ],
+    "935f2afb": [
+      8581
+    ],
+    "9e4087bc": [
+      2711
+    ],
+    "a273e218": [
+      6422
+    ],
+    "a6aa9e1f": [
+      1128,
+      1869,
+      2125,
+      7643
+    ],
+    "a7bd4aaa": [
+      7098
+    ],
+    "a94703ab": [
+      1869,
+      9048
+    ],
+    "c288aa59": [
+      608
+    ],
+    "c4f5d8e4": [
+      1869,
+      2634
+    ],
+    "c9cd2092": [
+      237
+    ],
+    "ccc49370": [
+      1128,
+      1869,
+      2125,
+      3249
+    ],
+    "d5619685": [
+      1177
+    ],
+    "d9f32620": [
+      5557
+    ],
+    "df7e6dec": [
+      8747
+    ],
+    "dff1c289": [
+      1724
+    ],
+    "e0a40724": [
+      8810
+    ],
+    "e273c56f": [
+      9328
+    ],
+    "e44a2883": [
+      4736
+    ],
+    "f4f34a3a": [
+      3637
+    ],
+    "f55d3e7a": [
+      8863
+    ],
+    "styles": [
+      1128,
+      2125,
+      2634,
+      3249,
+      4813,
+      5354,
+      6061,
+      6969,
+      7643,
+      8209,
+      8401,
+      8792,
+      9048,
+      1869
+    ]
+  },
+  "assets": {
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/c9cd2092.b10c1b93.js",
+          "hash": "4b42626a9397a196",
+          "publicPath": "/Practica02Manual/assets/js/c9cd2092.b10c1b93.js"
+        }
+      ]
+    },
+    "418": {
+      "js": [
+        {
+          "file": "assets/js/92faf2d7.2757b12e.js",
+          "hash": "3d9b3a32228f6c21",
+          "publicPath": "/Practica02Manual/assets/js/92faf2d7.2757b12e.js"
+        }
+      ]
+    },
+    "608": {
+      "js": [
+        {
+          "file": "assets/js/c288aa59.d956caa2.js",
+          "hash": "658bfcc8906d98bd",
+          "publicPath": "/Practica02Manual/assets/js/c288aa59.d956caa2.js"
+        }
+      ]
+    },
+    "1128": {
+      "js": [
+        {
+          "file": "assets/js/1128.29a32c5c.js",
+          "hash": "d5ab9c11c233747f",
+          "publicPath": "/Practica02Manual/assets/js/1128.29a32c5c.js"
+        }
+      ]
+    },
+    "1177": {
+      "js": [
+        {
+          "file": "assets/js/d5619685.f02b87b1.js",
+          "hash": "fde92a6d12b69adb",
+          "publicPath": "/Practica02Manual/assets/js/d5619685.f02b87b1.js"
+        }
+      ]
+    },
+    "1562": {
+      "js": [
+        {
+          "file": "assets/js/6f7be878.4336a325.js",
+          "hash": "ffab19e578e6aba0",
+          "publicPath": "/Practica02Manual/assets/js/6f7be878.4336a325.js"
+        }
+      ]
+    },
+    "1724": {
+      "js": [
+        {
+          "file": "assets/js/dff1c289.ebc9e3c1.js",
+          "hash": "c3453f755f6d10bc",
+          "publicPath": "/Practica02Manual/assets/js/dff1c289.ebc9e3c1.js"
+        }
+      ]
+    },
+    "1869": {
+      "css": [
+        {
+          "file": "assets/css/styles.00cf9dc1.css",
+          "hash": "204633cd8d8ac5d1",
+          "publicPath": "/Practica02Manual/assets/css/styles.00cf9dc1.css"
+        }
+      ]
+    },
+    "1953": {
+      "js": [
+        {
+          "file": "assets/js/1e4232ab.5547807b.js",
+          "hash": "5b374f5065fa0f5b",
+          "publicPath": "/Practica02Manual/assets/js/1e4232ab.5547807b.js"
+        }
+      ]
+    },
+    "1972": {
+      "js": [
+        {
+          "file": "assets/js/73664a40.a0b37050.js",
+          "hash": "5e469e60b0290ad5",
+          "publicPath": "/Practica02Manual/assets/js/73664a40.a0b37050.js"
+        }
+      ]
+    },
+    "1974": {
+      "js": [
+        {
+          "file": "assets/js/5c868d36.003a90e9.js",
+          "hash": "a34ebe881eee46a9",
+          "publicPath": "/Practica02Manual/assets/js/5c868d36.003a90e9.js"
+        }
+      ]
+    },
+    "2125": {
+      "js": [
+        {
+          "file": "assets/js/2125.6bf5dad2.js",
+          "hash": "bee99dd26b7453bf",
+          "publicPath": "/Practica02Manual/assets/js/2125.6bf5dad2.js"
+        }
+      ]
+    },
+    "2237": {
+      "js": [
+        {
+          "file": "assets/js/2237.a00abd6f.js",
+          "hash": "b55265fa49a47786",
+          "publicPath": "/Practica02Manual/assets/js/2237.a00abd6f.js"
+        }
+      ]
+    },
+    "2601": {
+      "js": [
+        {
+          "file": "assets/js/7f5b2176.fe9ba46f.js",
+          "hash": "d65ec9f2e96ee4bb",
+          "publicPath": "/Practica02Manual/assets/js/7f5b2176.fe9ba46f.js"
+        }
+      ]
+    },
+    "2634": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.352c6290.js",
+          "hash": "419fb53f401b12bf",
+          "publicPath": "/Practica02Manual/assets/js/c4f5d8e4.352c6290.js"
+        }
+      ]
+    },
+    "2711": {
+      "js": [
+        {
+          "file": "assets/js/9e4087bc.5cfd6093.js",
+          "hash": "bab95cb464b9fd88",
+          "publicPath": "/Practica02Manual/assets/js/9e4087bc.5cfd6093.js"
+        }
+      ]
+    },
+    "2748": {
+      "js": [
+        {
+          "file": "assets/js/822bd8ab.1850a1d2.js",
+          "hash": "f9d343ae510bb2cd",
+          "publicPath": "/Practica02Manual/assets/js/822bd8ab.1850a1d2.js"
+        }
+      ]
+    },
+    "3098": {
+      "js": [
+        {
+          "file": "assets/js/533a09ca.c0eaeae7.js",
+          "hash": "4445acabde160b7e",
+          "publicPath": "/Practica02Manual/assets/js/533a09ca.c0eaeae7.js"
+        }
+      ]
+    },
+    "3249": {
+      "js": [
+        {
+          "file": "assets/js/ccc49370.4d77631c.js",
+          "hash": "4a7f45c1a2d87dc7",
+          "publicPath": "/Practica02Manual/assets/js/ccc49370.4d77631c.js"
+        }
+      ]
+    },
+    "3637": {
+      "js": [
+        {
+          "file": "assets/js/f4f34a3a.39ad6815.js",
+          "hash": "0b8d8dbc99d826aa",
+          "publicPath": "/Practica02Manual/assets/js/f4f34a3a.39ad6815.js"
+        }
+      ]
+    },
+    "3694": {
+      "js": [
+        {
+          "file": "assets/js/8717b14a.cf1530f4.js",
+          "hash": "bf057587cf6d7432",
+          "publicPath": "/Practica02Manual/assets/js/8717b14a.cf1530f4.js"
+        }
+      ]
+    },
+    "3976": {
+      "js": [
+        {
+          "file": "assets/js/0e384e19.9c384920.js",
+          "hash": "556a2a1cf9dba6c1",
+          "publicPath": "/Practica02Manual/assets/js/0e384e19.9c384920.js"
+        }
+      ]
+    },
+    "4134": {
+      "js": [
+        {
+          "file": "assets/js/393be207.dc3109e9.js",
+          "hash": "282231b948710f1e",
+          "publicPath": "/Practica02Manual/assets/js/393be207.dc3109e9.js"
+        }
+      ]
+    },
+    "4736": {
+      "js": [
+        {
+          "file": "assets/js/e44a2883.e625cf67.js",
+          "hash": "70076fbf41b7670a",
+          "publicPath": "/Practica02Manual/assets/js/e44a2883.e625cf67.js"
+        }
+      ]
+    },
+    "4813": {
+      "js": [
+        {
+          "file": "assets/js/6875c492.05fa95e2.js",
+          "hash": "7459a8adb487e7d4",
+          "publicPath": "/Practica02Manual/assets/js/6875c492.05fa95e2.js"
+        }
+      ]
+    },
+    "5352": {
+      "js": [
+        {
+          "file": "assets/js/28b52985.e34e1433.js",
+          "hash": "d75edf1ec0f02820",
+          "publicPath": "/Practica02Manual/assets/js/28b52985.e34e1433.js"
+        }
+      ]
+    },
+    "5354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.1fff9ad1.js",
+          "hash": "75af47fd717560a0",
+          "publicPath": "/Practica02Manual/assets/js/runtime~main.1fff9ad1.js"
+        }
+      ]
+    },
+    "5407": {
+      "js": [
+        {
+          "file": "assets/js/4df8bf20.6423378e.js",
+          "hash": "14cc028aaa577ecf",
+          "publicPath": "/Practica02Manual/assets/js/4df8bf20.6423378e.js"
+        }
+      ]
+    },
+    "5557": {
+      "js": [
+        {
+          "file": "assets/js/d9f32620.d06d6fa1.js",
+          "hash": "df06d1078ff98ae3",
+          "publicPath": "/Practica02Manual/assets/js/d9f32620.d06d6fa1.js"
+        }
+      ]
+    },
+    "6061": {
+      "js": [
+        {
+          "file": "assets/js/1f391b9e.adcc6bbc.js",
+          "hash": "70a7e39feb954dab",
+          "publicPath": "/Practica02Manual/assets/js/1f391b9e.adcc6bbc.js"
+        }
+      ]
+    },
+    "6166": {
+      "js": [
+        {
+          "file": "assets/js/56d0e263.8af8bf67.js",
+          "hash": "500ef35ea27e067d",
+          "publicPath": "/Practica02Manual/assets/js/56d0e263.8af8bf67.js"
+        }
+      ]
+    },
+    "6422": {
+      "js": [
+        {
+          "file": "assets/js/a273e218.3183cba0.js",
+          "hash": "16feef771eb061db",
+          "publicPath": "/Practica02Manual/assets/js/a273e218.3183cba0.js"
+        }
+      ]
+    },
+    "6969": {
+      "js": [
+        {
+          "file": "assets/js/14eb3368.f5bc31f0.js",
+          "hash": "90c7caf875078638",
+          "publicPath": "/Practica02Manual/assets/js/14eb3368.f5bc31f0.js"
+        }
+      ]
+    },
+    "7098": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.2789f37c.js",
+          "hash": "f5362b112a17cbfb",
+          "publicPath": "/Practica02Manual/assets/js/a7bd4aaa.2789f37c.js"
+        }
+      ]
+    },
+    "7159": {
+      "js": [
+        {
+          "file": "assets/js/3a13156d.ef5a4b8b.js",
+          "hash": "44677a07a9e75f10",
+          "publicPath": "/Practica02Manual/assets/js/3a13156d.ef5a4b8b.js"
+        }
+      ]
+    },
+    "7431": {
+      "js": [
+        {
+          "file": "assets/js/816026d7.d455db7c.js",
+          "hash": "1332be30c5677ede",
+          "publicPath": "/Practica02Manual/assets/js/816026d7.d455db7c.js"
+        }
+      ]
+    },
+    "7472": {
+      "js": [
+        {
+          "file": "assets/js/814f3328.f4d8e063.js",
+          "hash": "272cc1a71c318f49",
+          "publicPath": "/Practica02Manual/assets/js/814f3328.f4d8e063.js"
+        }
+      ]
+    },
+    "7643": {
+      "js": [
+        {
+          "file": "assets/js/a6aa9e1f.fdd2a9e1.js",
+          "hash": "79c40c10c0c15f61",
+          "publicPath": "/Practica02Manual/assets/js/a6aa9e1f.fdd2a9e1.js"
+        }
+      ]
+    },
+    "7821": {
+      "js": [
+        {
+          "file": "assets/js/1becf2f9.61e87583.js",
+          "hash": "a5ea722b07df790a",
+          "publicPath": "/Practica02Manual/assets/js/1becf2f9.61e87583.js"
+        }
+      ]
+    },
+    "8209": {
+      "js": [
+        {
+          "file": "assets/js/01a85c17.6521355e.js",
+          "hash": "6c3f0ef58abc31d5",
+          "publicPath": "/Practica02Manual/assets/js/01a85c17.6521355e.js"
+        }
+      ]
+    },
+    "8401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.78db5642.js",
+          "hash": "e18f9d47a37dfb84",
+          "publicPath": "/Practica02Manual/assets/js/17896441.78db5642.js"
+        }
+      ]
+    },
+    "8581": {
+      "js": [
+        {
+          "file": "assets/js/935f2afb.4e2c35d1.js",
+          "hash": "45819b5005ec2b2d",
+          "publicPath": "/Practica02Manual/assets/js/935f2afb.4e2c35d1.js"
+        }
+      ]
+    },
+    "8609": {
+      "js": [
+        {
+          "file": "assets/js/925b3f96.3aeb0c64.js",
+          "hash": "4ee987be7e3ce909",
+          "publicPath": "/Practica02Manual/assets/js/925b3f96.3aeb0c64.js"
+        }
+      ]
+    },
+    "8737": {
+      "js": [
+        {
+          "file": "assets/js/7661071f.f9e6b9ed.js",
+          "hash": "056621f14d04248f",
+          "publicPath": "/Practica02Manual/assets/js/7661071f.f9e6b9ed.js"
+        }
+      ]
+    },
+    "8747": {
+      "js": [
+        {
+          "file": "assets/js/df7e6dec.fc50aecc.js",
+          "hash": "ee713d474fad69da",
+          "publicPath": "/Practica02Manual/assets/js/df7e6dec.fc50aecc.js"
+        }
+      ]
+    },
+    "8792": {
+      "js": [
+        {
+          "file": "assets/js/main.e941b6f3.js",
+          "hash": "08d4c4d8f6cc0ee4",
+          "publicPath": "/Practica02Manual/assets/js/main.e941b6f3.js"
+        }
+      ]
+    },
+    "8810": {
+      "js": [
+        {
+          "file": "assets/js/e0a40724.c037236e.js",
+          "hash": "3c6bfcd56dfaf47f",
+          "publicPath": "/Practica02Manual/assets/js/e0a40724.c037236e.js"
+        }
+      ]
+    },
+    "8863": {
+      "js": [
+        {
+          "file": "assets/js/f55d3e7a.3b465ef5.js",
+          "hash": "ac9c302569cdf930",
+          "publicPath": "/Practica02Manual/assets/js/f55d3e7a.3b465ef5.js"
+        }
+      ]
+    },
+    "8879": {
+      "js": [
+        {
+          "file": "assets/js/61fc4ad7.75009ea8.js",
+          "hash": "ee21c00175e8f2a2",
+          "publicPath": "/Practica02Manual/assets/js/61fc4ad7.75009ea8.js"
+        }
+      ]
+    },
+    "9048": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.a8a01533.js",
+          "hash": "5a8ebabfdadd5745",
+          "publicPath": "/Practica02Manual/assets/js/a94703ab.a8a01533.js"
+        }
+      ]
+    },
+    "9262": {
+      "js": [
+        {
+          "file": "assets/js/18c41134.535b1c05.js",
+          "hash": "d0bf2a78cae04ded",
+          "publicPath": "/Practica02Manual/assets/js/18c41134.535b1c05.js"
+        }
+      ]
+    },
+    "9325": {
+      "js": [
+        {
+          "file": "assets/js/59362658.a0d60eb1.js",
+          "hash": "a1267c3e11dc3635",
+          "publicPath": "/Practica02Manual/assets/js/59362658.a0d60eb1.js"
+        }
+      ]
+    },
+    "9328": {
+      "js": [
+        {
+          "file": "assets/js/e273c56f.c5ea4de2.js",
+          "hash": "bf37b6999509f5b7",
+          "publicPath": "/Practica02Manual/assets/js/e273c56f.c5ea4de2.js"
+        }
+      ]
+    },
+    "9647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.16ee50fe.js",
+          "hash": "8fbe2d11cff86d09",
+          "publicPath": "/Practica02Manual/assets/js/5e95c892.16ee50fe.js"
+        }
+      ]
+    }
+  }
+}
