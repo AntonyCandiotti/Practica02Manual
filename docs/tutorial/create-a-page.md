@@ -20,7 +20,7 @@ Hemos elaborado un script para uso en instancias Linux con Ubuntu 18 o superior.
 3. Si es posible configurar su dominio apuntando a su instancia para que al finalizar la instalación se encuentre disponible el aplicativo. Edite los récords A y CNAME donde A debe contener su IP y CNAME el valor * (asterisco) para que se tomen los subdominios registrados por la herramienta.
 
 
-<img id="linux" src="./img/image3.png" alt=""/>
+<img  src="./img/image3.svg" />
 
 ## Pasos
 
