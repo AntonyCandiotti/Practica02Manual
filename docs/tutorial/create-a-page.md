@@ -3,6 +3,7 @@ sidebar_position: 1
 ---
 
 
+
 # Manual para Script de Instalación Docker | GitLab | Opción SSL | Opción SSH Facturador PRO4
 
 ## Descripción
@@ -20,7 +21,9 @@ Hemos elaborado un script para uso en instancias Linux con Ubuntu 18 o superior.
 3. Si es posible configurar su dominio apuntando a su instancia para que al finalizar la instalación se encuentre disponible el aplicativo. Edite los récords A y CNAME donde A debe contener su IP y CNAME el valor * (asterisco) para que se tomen los subdominios registrados por la herramienta.
 
 
-<img  src="./img/image3.svg" />
+<img class ="imagen" src="https://raw.githubusercontent.com/AntonyCandiotti/Practica02Manual/2da5feee0d41850b5aa21b92be5a64bd4462afe4/docs/tutorial/img/image1.svg" alt="haaaolaa"/>
+
+
 
 ## Pasos
 
@@ -31,7 +34,7 @@ Hemos elaborado un script para uso en instancias Linux con Ubuntu 18 o superior.
 5. Dar permisos de ejecución al script: `chmod +x install.sh`.
 6. Ejecutar el comando para iniciar el despliegue: `./install.sh [dominio]`, por ejemplo, `./install.sh facturador.pro`.
 
-...
+
 
 
 

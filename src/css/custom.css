@@ -33,6 +33,11 @@
   color: blue;
 }
 
+.imagen{
+  width: 600px;
+  height: 800px;
+}
+
 #linux{
   width: 400px;
   height: 200px;
