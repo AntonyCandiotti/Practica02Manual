@@ -33,13 +33,28 @@
   color: blue;
 }
 
-.imagen{
-  width: 600px;
-  height: 800px;
+img {
+  border: 2px solid lightblue;
+  text-align: center;
 }
 
-#linux{
-  width: 400px;
-  height: 200px;
-  border: 2px solid lightblue;
+.imagenes_horizontales{
+  width: 700px;
+}
+
+.letras_negras{
+  background-color: black; 
+  color: white;
+
+}
+#ssh_key{
+  width: 450px;
+}
+
+.subtitulo{
+  
+  color: #666666;
+}
+.subtitulo_small{
+  color: #888888;
 }
