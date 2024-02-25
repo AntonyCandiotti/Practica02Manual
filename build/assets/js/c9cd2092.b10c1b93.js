@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpractica_02_manual=self.webpackChunkpractica_02_manual||[]).push([[237],{5803:a=>{a.exports=JSON.parse('{"permalink":"/Practica02Manual/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
