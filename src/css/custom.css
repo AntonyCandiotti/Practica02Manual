@@ -28,3 +28,13 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.antony{
+  color: blue;
+}
+
+#linux{
+  width: 400px;
+  height: 200px;
+  border: 2px solid lightblue;
+}
