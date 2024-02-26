@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'USANDO LINUX',
+    Svg : require('@site/static/img/tux.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       En esta guía usaremos Linux por lo que es indespensable tenerlo instalado.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'USA EL INTERPRETE QUE GUSTES',
+    Svg: require('@site/static/img/powershell.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Powershell, Gitbash, Zsh o hasta la simple CMD
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'USA LA PLATAFORMA QUE GUSTES',
+    Svg: require('@site/static/img/gitlab.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Gitlab o Github, no es necesario que te compliques tanto
       </>
     ),
   },

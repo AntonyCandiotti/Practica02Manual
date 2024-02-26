@@ -8,9 +8,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Manual Facturador',
+  tagline: 'Cómo instalar un Facturador en Linux',
+  favicon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmYQNPBZA3C68ULxT7eJQGNVOYk2Fy3XRc5A&usqp=CAU',
 
   // Set the production url of your site here
   url: 'https://antonycandiotti.github.io',
@@ -69,7 +69,7 @@ const config = {
         title: 'Manual',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmYQNPBZA3C68ULxT7eJQGNVOYk2Fy3XRc5A&usqp=CAU',
         },
         items: [
           {
@@ -99,37 +99,31 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Autor',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Github-Repositorio',
+                href: 'https://github.com/AntonyCandiotti/Practica02Manual',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Docusaurus',
+                href: 'https://docusaurus.io/',
               },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+              
             ],
           },
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/AntonyCandiotti',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Hecho por Antony Cristian Candiotti Mihua.`,
       },
       prism: {
         theme: prismThemes.dracula,
