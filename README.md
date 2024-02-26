@@ -5,36 +5,29 @@ Una página hecha para la practica 02. Entra [aquí](https://antonycandiotti.git
 
 ### Página cambios
 
+### Cambios CSS:
+
+<img class="readme" src="https://github.com/AntonyCandiotti/Practica02Manual/blob/main/static/img/ReadmeImg/custom.png?raw=true"  />
+
+### Cambio docusaurus.config:
+
+- <img class="readme" src="https://github.com/AntonyCandiotti/Practica02Manual/blob/main/static/img/ReadmeImg/config.png?raw=true" />
+
+### Imagenes agregadas: 
+- <img class="readme" src = "https://github.com/AntonyCandiotti/Practica02Manual/blob/main/static/img/ReadmeImg/imagenes.png?raw=true" />
+
+### Manual facturador: 
+- <img class="readme" src = "https://github.com/AntonyCandiotti/Practica02Manual/blob/main/static/img/ReadmeImg/intro.png?raw=true" />
 
 
-### Local Development
+# Imagenes de pagina
 
-```
-$ yarn start
-```
+### Index:
+<img class="readme" src="https://github.com/AntonyCandiotti/Practica02Manual/blob/main/static/img/ReadmeImg/principal.png?raw=true" /> 
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### Guia:
+<img class="readme" src="https://github.com/AntonyCandiotti/Practica02Manual/blob/main/static/img/ReadmeImg/4documentos.png?raw=true" /> 
 
-### Build
+### Ejemplo:
+<img class="readme" src="https://github.com/AntonyCandiotti/Practica02Manual/blob/main/static/img/ReadmeImg/paginaImagen.png?raw=true" /> 
 
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
