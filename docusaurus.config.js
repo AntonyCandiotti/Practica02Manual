@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Manual Facturador',
   tagline: 'Cómo instalar un Facturador en Linux',
-  favicon: 'https://github.com/AntonyCandiotti/Practica02Manual/blob/main/static/img/Facturador.png?raw=true',
+  favicon: 'https://github.com/AntonyCandiotti/Practica02Manual/blob/main/static/img/pngwing.com.png?raw=true',
 
   // Set the production url of your site here
   url: 'https://antonycandiotti.github.io',
@@ -69,7 +69,7 @@ const config = {
         title: 'Manual',
         logo: {
           alt: 'My Site Logo',
-          src: 'https://github.com/AntonyCandiotti/Practica02Manual/blob/main/static/img/Facturador.png?raw=true',
+          src: 'https://github.com/AntonyCandiotti/Practica02Manual/blob/main/static/img/pngwing.com.png?raw=true',
         },
         items: [
           {

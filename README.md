@@ -1,12 +1,11 @@
 # Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Una página hecha para la practica 02. Entra [aquí](https://antonycandiotti.github.io/Practica02Manual/) para ver la página.
 
-### Installation
 
-```
-$ yarn
-```
+### Página cambios
+
+
 
 ### Local Development
 
