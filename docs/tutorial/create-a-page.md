@@ -1,23 +1,50 @@
 ---
-sidebar_position: 6
+sidebar_position: 4
 ---
 
-# Congratulations!
+# Instalación del Facturador
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+<h2 class="subtitulo">Docker | Linux | SSL externo</h2>
 
-Docusaurus has **much more to offer**!
+## Pasos
 
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
+1. para instalar debe ejecutar el script evitando instalar el SSL, le será consultado en el proceso y deberá ingresar "**n**"
+   
+2. finalizada la instalación debe dirigirse a la ruta de instalación:
+    
+    ```bash 
+    cd /root/facturadorpro31/
+    ```
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+3. debe editar el archivo **.env**
+    ```bash 
+    nano .env
+    ```
 
-## What's next?
+- Dentro del editor, localice los parámetros y realice los siguientes cambios:
+   - **Antes**:
+     ```bash
+     APP_URL=http://${APP_URL_BASE}
+     FORCE_HTTPS=false
+     ```
+   - **Después**:
+     ```bash
+     APP_URL=https://${APP_URL_BASE}
+     FORCE_HTTPS=true
+     ```
 
-- Read the [official documentation](https://docusaurus.io/)
-- Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
-- Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+    - :black_circle: Una vez realizados los cambios, guarde y salga del editor.
+
+    - :black_circle: Ejecute los siguientes comandos para eliminar la caché de la aplicación:
+    
+        ```bash
+        php artisan config:cache
+        ```
+    - :black_circle: Con esto, habrá completado la configuración del lado de la herramienta. Sin embargo, tenga en cuenta que hasta que no configure un SSL, no podrá acceder a la herramienta.
+
+
+:::warning Importante
+
+Recuerde habilitar el puerto 443 para poder acceder a la herramienta.
+
+:::

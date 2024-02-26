@@ -2,33 +2,161 @@
 sidebar_position: 3
 ---
 
-# Create a Blog Post
+# Manual de Instalación 
+<h2 class="subtitulo">Linux | Valet</h2>
 
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
 
-## Create your first Post
 
-Create a file at `blog/2021-02-28-greetings.md`:
+Si desea implementar sobre un servidor local Linux "desde cero" debe:
 
-```md title="blog/2021-02-28-greetings.md"
----
-slug: greetings
-title: Greetings!
-authors:
-  - name: Joel Marcey
-    title: Co-creator of Docusaurus 1
-    url: https://github.com/JoelMarcey
-    image_url: https://github.com/JoelMarcey.png
-  - name: Sébastien Lorber
-    title: Docusaurus maintainer
-    url: https://sebastienlorber.com
-    image_url: https://github.com/slorber.png
-tags: [greetings]
----
+- Contar con acceso root
+- Instalar php 7.2 y todas las librerías requeridas por el aplicativo y Laravel
+- Instalar Mysql, si lo desea PhpMyAdmin para hacer las primeras pruebas de base de datos
+- Instalar Git, Curl, Composer
 
-Congratulations, you have made your first post!
+:::danger Cuidado
+Ubuntu no cuenta con la versión 7.2 de php de manera nativa por lo que se debe seguir un par de pasos para agregar un repositorio y luego proceder con la instalación, ellos son: 
+:::
 
-Feel free to play around and edit this post as much as you like.
+## Instalación de PHP 7.2 en Ubuntu
+
+```bash
+apt-get update
+apt-get install software-properties-common
+apt-get install python-software-properties
+add-apt-repository ppa:ondrej/php
+apt-get update
+apt-get install php7.2 php7.2-mbstring php7.2-soap php7.2-zip php7.2-mysql php7.2-curl php7.2-gd php7.2-xml php7.2-mcrypt
 ```
 
-A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).
+## Instalación de MySQL y PhpMyAdmin
+```bash
+apt-get install mysql-server-5.7 mysql-client-5.7 phpmyadmin
+```
+
+Se le solicitara contraseña dos veces, con su confirmación, tanto para mysql como para phpmyadmin
+**Instalamos Curl y Git**
+```bash
+apt-get install git
+apt-get install curl
+```
+Luego se procede a **instalar Composer**
+```bash
+apt-get install composer
+
+```
+
+Dar permisos de lectura y escritura a la carpeta composer
+
+```bash
+chmod -R 777 ~/.composer
+```
+
+**Instalar librerías cpriego de Valet**
+```bash
+composer global require cpriego/valet-linux
+```
+
+Ir a la carpeta home /.profile y añadir la siguiente línea al final del documento y guardar
+```bash
+nano ~/.profile
+```
+
+- Agregar: 
+```bash
+PATH= "HOME/.composer/vendor/bin:$PATH"
+```
+
+Luego ejecutar en terminal: 
+```bash
+source ~/.profile
+```
+
+Instalar las siguientes librerías
+```bash
+apt install network-maneger libnss3-tools jq xsel
+```
+
+Ya en este punto el sistema se encuentra listo para instalar Valet, pero antes debe asegurarse de tener libre el puerto :80. Si tienes instalado apache en tu sistema debes detenerlo para liberar el puerto.
+
+Detener servicios de apache2 si lo tienes instalado.
+```bash
+services apache2 stop
+```
+
+
+Valet trabaja con el servidor de nginx por lo cual debe instalarse previamente antes de instalar Valet.
+```bash
+apt install nginx
+```
+
+
+Verificar que el servidor de nginx se está ejecutando correctamente
+```bash
+systemctl status nginx
+
+```
+
+Si todo está ok, **instalar valet**
+```bash
+valet install
+```
+
+
+Con valet podemos tener nuestro código en cualquier parte del sistema en este caso usaremos la carpeta home para instalarlo.
+```bash
+mkdir ~/code
+cd code
+valet park
+```
+
+
+Ya en este punto tenemos todo listo para clonar el repositorio y ejecutarlo. Una vez ubicado en /code con la herramienta git, si ya se le ha compartido acceso a repositorio ejecute lo siguiente:
+```bash
+git clone https://gitlab.com/b.mendoza/facturadorpro3.git
+```
+
+Esto creará una carpeta llamada facturadorpro3, luego de la descarga puede entrar en la carpeta con `cd facturadorpro3`, dentro de ella puede ejecutar lo siguiente para configurar el archivo .env
+```bash
+cp .env.example .env
+```
+
+
+Donde APP_URL_BASE corresponde a su dominio, DB_DATABASE será el nombre que le de a la base de datos principal, DB_USERNAME y DB_PASSWORD equivalen al usuario creado anteriormente en la instalación de mysql.
+
+Seguidamente:
+```bash
+php artisan key:generate
+composer dump-autoload
+```
+
+Luego deberá registrar la base de datos mediante phpmyadmin, accediendo a la ruta sudominio.com/phpmyadmin con el usuario root y contraseña agregada en la instalación.
+
+Si todo marcha bien es hora de agregar los paquetes faltantes en el proyecto y ejecutar las migraciones.
+```bash
+composer install
+php artisan migrate --seed
+```
+
+
+Puede verificar actualizando phpmyadmin, en la lista de la izquierda se mostrará la base de datos creada y la derecha las tablas generadas.
+
+Con estos pasos podrá observar el aplicativo en su dominio, en algunos casos si tiene problemas para observar el aplicativo puede deberse a los permisos en las carpetas del proyecto, principalmente storage y cache requieren el siguiente comando
+```bash
+chmod -R 755 storage
+chmod -R 755 bootstrap/cache
+```
+
+
+También es necesario ejecutar el siguiente comando para establecer la ruta de los archivos cargados de la empresa
+```bash
+php artisan storage:link
+```
+
+Si todo se realizó correctamente, ya tendrá las tablas del usuario principal creadas, y podrá acceder mediante la web, al proyecto.
+**Accesos**:
+- `Facturadorpro3.test`
+- Usuario: `admin@gmail.com`
+- Contraseña: `123456`
+
+
