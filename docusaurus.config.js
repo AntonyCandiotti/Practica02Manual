@@ -13,15 +13,15 @@ const config = {
   favicon: 'https://github.com/AntonyCandiotti/Practica02Manual/blob/main/static/img/pngwing.com.png?raw=true',
 
   // Set the production url of your site here
-  url: 'https://antonycandiotti.github.io',
+  url: 'http://34.75.61.45',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Practica02Manual/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'AntonyCandiotti', // Usually your GitHub org/user name.
-  projectName: 'Practica02Manual', // Usually your repo name.
+  organizationName: 'antonycandiotti123', // Usually your GitHub org/user name.
+  projectName: 'docusauru', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
